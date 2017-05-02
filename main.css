@@ -6,7 +6,9 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-
+html:focus {
+    outline:none;
+}
 .name,.intro,.ama,.job-title,.location {
   text-align: center;
   color: white;
@@ -19,7 +21,7 @@ html {
 .top-intro{
   background-color: black;
   opacity: 0.8;
-  height: 1000px;
+  height: 1100px;
   display: flex;
   flex-direction: column;
 
