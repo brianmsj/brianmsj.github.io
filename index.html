@@ -12,7 +12,7 @@
 </head>
 <body>
  <header className ='main header'>
-  <section class='top-intro'>
+  <section id='home-page' class='top-intro'>
    <div class=headings>
    <h3 class="intro">Hello, I'm
    <h1 class="name">Brian McMinn</h1>
@@ -20,8 +20,9 @@
    <h2 class="job-title">Full Stack Web Developer</h2>
    <div class="page-nav">
      <ul>
-       <a href='#aboutsection'>About Me</a>
-       <a href='#projects'>Projects</a>
+       <a href='#aboutsection' class='nav-link'>About Me</a><span class='span-nav'> | </span>
+       <a href='#projects' class='nav-link'>Projects</a><span class='span-nav'> | </span>
+       <a href='#contact' class='nav-link'>Contact Me</a>
      </ul>
    </div>
    <div id="social-footer">
@@ -39,7 +40,7 @@
        </li>
     </ul>
   </div>
-  <div id="down" class= "animated shake">
+  <div id="down">
   <i class="fa fa-chevron-circle-down fa-5x" aria-hidden="true"></i>
   </div>
   </div>
@@ -50,12 +51,12 @@
   <div id="aboutsection" class="about-me-framework">
    <section class='aboutme-container'>
      <h2 class='aboutme-title'> About Me </h2>
-     <p class='about'> I was born and raised <span>Silicon Valley</span> and received B.S. from <span>San Jose State University</span>.I spent nine years in Marketing, Sales Engineering and Management with top <span>semiconductor</span> companies in Silicon Valley.
-         In 2016 I decided to make a career change to <span>Web Development</span>. When I'm not developing
+     <p class='about'> I was born and raised in <span>Silicon Valley</span> and received a B.S. from <span>San Jose State University</span>.I spent nine years in Marketing, Sales Engineering and Management with top <span>semiconductor</span> companies in Silicon Valley.
+         In 2016, I decided to pursue a career change and new passion of <span>Web Development</span>. When I'm not developing
          I enjoy road trips, meeting new people, <span>tech news</span>, fantasy sports, tv shows, watching pro / college football and nba basketball</p>
    </section>
    <section>
-   <div class='technologies'>
+  <div class='technologies'>
      <div class='language'>
      <h3 class="skills-title">Languages</h3>
        <ul class="definitions">
@@ -72,33 +73,45 @@
          <li class='item'><img src='jquery.png'</li>
        </ul>
      </div>
-     <div class="language">
+     <div class="language database">
      <h3 class="skills-title">Database</h3>
        <ul class="definitions">
          <li class='item'><img src='mongo.png'></li>
          <li class='item'><img src='postgre.png'></li>
        </ul>
      </div>
-     <div class='language'>
-     <h3 class="skills-title">Other Skills & Tools</h3>
+     <div class="language database">
+     <h3 class="skills-title">Other Skills</h3>
        <ul class="definitions">
-         <li class='item'>Git & Github</li>
-         <li class='item'>Redux</li>
-         <li class='item'>Socket IO</li>
-         <li class='item'>ExpressJS</li>
-         <li class='item'>Heroku</li>
-      </ul>
-    </div>
+         <li class='item'><img src='github.png'></li>
+         <li class='item'><img src='logo.png'></li>
+         <li class='item'><img src='xcode.png'></li>
+       </ul>
+     </div>
+  </div>
+  <div class="page-nav page-nav2">
+    <ul>
+      <a href='#home-page' class='nav-link'>Home Page</a><span class='span-nav'> | </span>
+      <a href='#projects' class='nav-link'>Projects</a><span class='span-nav'> | </span>
+      <a href='#contact' class='nav-link'>Contact Me</a>
+    </ul>
   </div>
 </div>
-  <section id=projects>
-    <h2>Projects</h2>
-      <h3>Virtual Vacay</h3>
-      <p> Virtual Vacay is an app that lets you take a instant vacation from your computer</p><br>
-      <h3>Periodic Repetition</h3>
-      <p>Periodic Repetition is an app that uses a spaced repetition algorithm to help students learn the periodic table of elements</p><br>
-      <h3>Today</h3>
-      <p>Today is an mobile app built on Swift that tracks what you need to do today!</p>
+  <section class='project-container'id=projects>
+    <div class=project-item id=virtual-vacay>
+      <div class='project-image'>
+      <a href='https://calm-shore-18628.herokuapp.com/#/' class='proj-screenshot left'>
+        <img src='virtual-vacay.png' alt='virtual vacation login page where you can take a virtual vacation'>
+      </a>
+    </div>
+      <div class='proj-detail right'>
+        <div class="proj-title">
+          <h3>Virtual Vacay</h3>
+          <a href='https://github.com/brianmsj/vacation_app.git'>
+            <i class='fa fa-github fa-2x' aria-hidden='true'>
+            </i>
+          </a>
+    </div>
   </section>
 
 </main>
