@@ -130,7 +130,6 @@ margin-top: 100px;
 opacity: 0.8;
 color: white;
 display: flex;
-align-items: center;
 justify-content: space-between;
 flex-direction: column;
 }
@@ -187,6 +186,11 @@ flex-direction: column;
   font-family: 'Inconsolata', monospace;
   font-size: 30px;
 }
+.project-tech {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+
+}
 .span-nav {
   color: white;
   font-size: 30px;
@@ -196,3 +200,32 @@ flex-direction: column;
 }
 .nav-link {color: white;}
 .nav-link:hover {color: #d4fd02;}
+.project-image{
+  float: left;
+  padding-top: 80px;
+  padding-left: 80px;
+}
+.project-detail-right {
+  float: right;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

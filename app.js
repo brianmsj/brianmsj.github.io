@@ -27,3 +27,9 @@ $('a[href*="#"]')
      }
    }
  });
+ document.addEventListener('DOMContentLoaded', function(){
+    Typed.new('.job-title', {
+      strings: ["iOS Developer", "Full Stack Web Developer"],
+      typeSpeed: 150
+    });
+});
