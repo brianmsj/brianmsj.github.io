@@ -28,8 +28,8 @@ $('a[href*="#"]')
    }
  });
  document.addEventListener('DOMContentLoaded', function(){
-    Typed.new('.job-title', {
-      strings: ["Full Satck", "Full Stack Web Developer"],
-      typeSpeed: 150
-    });
-});
+     Typed.new('.job-title', {
+       strings: ["Web Developer", "Full Stack Web Developer"],
+       typeSpeed: 150
+     });
+ });
