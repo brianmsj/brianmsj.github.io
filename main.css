@@ -42,13 +42,19 @@ body {
 .location {
   font-size: 14px
 }
-.job-title,.name,.aboutme-title {
+.job-title,.name,.aboutme-title,.projects-title {
   font-size: 70px;
   font-family: 'Roboto', sans-serif;
   font-style:oblique;
 }
 .aboutme-title {
   color: #d4fd02;
+}
+
+.projects-title {
+  color: #d4fd02;
+  text-align: center;
+  margin-bottom: 0;
 }
 span {
   color: #d4fd02;
@@ -134,7 +140,7 @@ display: flex;
 flex-direction: column;
 }
 .about {
-  font-size: 34px;
+  font-size: 30px;
   font-family: 'Inconsolata', monospace;
   text-align: left;
   padding-right: 60px;
@@ -163,7 +169,7 @@ flex-direction: column;
   text-align: center;
 }
 .aboutme-title {
-  padding-top: 300px;
+  padding-top: 100px;
 }
 .page-nav {
   text-align: center;
@@ -185,7 +191,7 @@ flex-direction: column;
 }
 .nav-link {color: white;}
 .nav-link:hover {color: #d4fd02;}
-.project-image{
+.project-image,.project-image2{
   display: inline-block;
   margin-right: 80px;
   position: relative;
@@ -230,6 +236,9 @@ flex-direction: column;
 .project-image:hover .image {
   opacity: 0.3;
 }
+.project-image2:hover .image {
+  opacity: 0.3;
+}
 
 .project-image:hover .middle{
   opacity: 1;
@@ -237,7 +246,7 @@ flex-direction: column;
 .project-image:hover .middle2{
   opacity: 1;
 }
-.project-image:hover .middle3{
+.project-image2:hover .middle3{
   opacity: 1;
 }
 
@@ -248,6 +257,10 @@ flex-direction: column;
   font-size: 18px;
   font-family: 'Inconsolata', monospace;
   padding: 16px 32px;
+}
+
+.text:hover {
+  border: 2px solid yellow;
 }
 
 .proj-detail-right {
@@ -264,6 +277,9 @@ flex-direction: column;
   vertical-align: super;
   margin-bottom: 0;
 
+}
+ul {
+  padding-left: 0;
 }
 .typed-cursor{
     opacity: 1;
@@ -293,4 +309,26 @@ flex-direction: column;
   text-align: left;
   padding-right: 60px;
   padding-left: 60px;
+}
+.project-image2{
+  margin-bottom: 50px;
+}
+.profile-pic {
+  margin: auto;
+  border-radius: 50%;
+  size: 50%;
+  max-width: 20%;
+  max-height: 20%;
+}
+
+.bottom-footer {
+  color: white;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+.in-touch {
+  font-size: 30px;
+  font-family: 'Inconsolata', monospace;
+  margin-bottom: 5px;
 }
