@@ -138,6 +138,9 @@ i.fa.fa-github-3x.fa-3x {
 a span {
   color: #fff;
 }
+a {
+  text-decoration: none;
+}
 a:visited {
   color: #fff;
 }
