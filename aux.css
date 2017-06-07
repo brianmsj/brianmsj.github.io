@@ -1,0 +1,221 @@
+
+
+.profile-pic {
+  margin: auto;
+  border-radius: 50%;
+  size: 50%;
+  max-width: 20%;
+  max-height: 20%;
+}
+.social-links {
+  list-style: none;
+  display: block;
+  text-align: center;
+}
+a.fa {
+  text-decoration: none
+}
+
+a:link {
+  text-decoration: none;
+  outline: 0;
+}
+
+.fa-stack {
+  margin: -2px;
+}
+.social-links {
+  list-style: none;
+  display: block;
+  text-align: center;
+}
+
+.highlight {
+  opacity: 1;
+  display: inline-block;
+}
+
+.highlight:hover {
+  opacity: 0.6;
+}
+.social-footer {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.social-footer .social-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.social-footer .social-links,.highlight {
+  display: inline;
+  padding: 0.4em;
+}
+i.fa.fa-github-3x.fa-3x {
+  vertical-align: middle;
+}
+.social-footer a {
+  color: white;
+}
+.down {
+  text-align: center;
+  opacity: 0.40;
+  cursor: pointer;
+}
+
+.name,.intro,.ama,.job-title,.location {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+.social-footer.top {
+  background: none;
+}
+
+.top-intro{
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  background: url(apple.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.intro,.ama {
+  font-family: 'Inconsolata', monospace;
+  font-size: 22px;
+  font-weight: bold;
+}
+.headings {
+  align-self: center;
+  margin: auto;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+.intro {
+  margin-bottom: 10px;
+}
+}
+.location {
+  font-size: 14px
+}
+.job-title,.name,.aboutme-title,.projects-title {
+  font-size: 55px;
+  font-family: 'Inconsolata', monospace;
+  font-style:oblique;
+  font-weight: bold;
+  margin: auto;
+}
+.aboutme-title {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.projects-title-container {
+  background-color: #21b2a6;
+  font-weight: bold;
+  height: 200px;
+  color: #fff;
+}
+.image.top-proj {
+  margin-top: 10px;
+}
+.aboutme-container.col-12 {
+  background-color: #2b343d;
+}
+.aboutme-container {
+  color: #fff;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  text-align: center;
+}
+a span {
+  color: #fff;
+}
+a:visited {
+  color: #fff;
+}
+.about,.about-paragraph {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: left;
+}
+.about-paragraph {
+  padding-bottom: 20px;
+}
+.image {
+  width: 100%;
+  padding-bottom: 15px;
+}
+.image:hover {
+  background-color: #2b343d;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.proj-detail-right {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #2b343d
+}
+.project-title-text {
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  padding-right: 20px;
+  vertical-align: super;
+  margin-bottom: 0;
+
+}
+.proj-title-left {
+  max-width: 70%;
+  text-align: left;
+  margin-left: 20%;
+}
+.proj-title-right {
+  max-width: 70%;
+  text-align: left;
+  margin-left: 20%;
+}
+.project-tech {
+  color: white;
+  font-size: 17px;
+  font-family: 'Inconsolata', monospace;
+}
+.fa-github:before {
+  background-color: #2b343d;
+}
+.bottom-footer.row {
+  background-color: #21b2a6;
+  color: #fff;
+}
+
+.social-footer {
+  background-color: #21b2a6;
+}
+a.nav-link {
+  color: white;
+  font-family:'Inconsolata', monospace;
+  font-size: 25px;
+  padding-left: 5px;
+}
+.top-nav {
+  text-align: center;
+  padding-left: 0;
+}
+.in-touch,.copyright {
+  margin: auto;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+.copyright {
+  font-size: 20px;
+  padding-top: 10px;
+}
