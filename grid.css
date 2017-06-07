@@ -28,6 +28,8 @@
   font-style:oblique;
   font-weight: bold;
   margin: auto;
+  text-align: center;
+  margin-top: 20px;
 }
 
   [class*="col-"] {

@@ -112,6 +112,7 @@ i.fa.fa-github-3x.fa-3x {
   font-style:oblique;
   font-weight: bold;
   margin: auto;
+  text-align: center;
 }
 .aboutme-title {
   margin-top: 14px;
@@ -217,6 +218,10 @@ a.nav-link {
   margin: auto;
   padding-bottom: 10px;
   font-size: 30px;
+  text-align: center;
+}
+.projects-title {
+  padding-top: 15px;
 }
 .copyright {
   font-size: 20px;
